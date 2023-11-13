@@ -1,0 +1,254 @@
+[
+    {
+        "key": "dashboard",
+        "uz": "Асосий саҳифа",
+        "en": "Dashboard",
+        "la": "Asosiy sahifa",
+        "ru": "Главная страница"
+    },
+    {
+        "key": "teachers",
+        "uz": "Ўқитувчилар",
+        "en": "Teachers",
+        "la": "O'qituvchilar",
+        "ru": "Учителя"
+    },
+    {
+        "key": "students",
+        "uz": "Талабалар",
+        "en": "Students",
+        "la": "Talabalar",
+        "ru": "Студенты"
+    },
+    {
+        "key": "reports",
+        "uz": "Ҳисоботлар",
+        "en": "Reports",
+        "la": "Hisobotlar",
+        "ru": "Отчеты"
+    },
+    {
+        "key": "groups",
+        "uz": "Гуруҳлар",
+        "en": "Groups",
+        "la": "Guruhlar",
+        "ru": "Группы"
+    },
+    {
+        "key": "settings",
+        "uz": "Созламалар",
+        "en": "Settings",
+        "la": "Sozlamalar",
+        "ru": "Настройки"
+    },
+    {
+        "key": "logout",
+        "uz": "Чиқиш",
+        "en": "Logout",
+        "la": "Chiqish",
+        "ru": "Выйти"
+    },
+    {
+        "key": "change_language",
+        "uz": "Тилни алмаштириш",
+        "ru": "Изменить язык",
+        "en": "Change language",
+        "la": "Tilni almashtirish"
+    },
+    {
+        "key": "total_students",
+        "uz": "Жами талабалар",
+        "ru": "Всего студентов",
+        "en": "Total Students",
+        "la": "Jami talabalar"
+    },
+    {
+        "key": "total_teachers",
+        "uz": "Жами ўқитувчилар",
+        "ru": "Всего учителей",
+        "en": "Total Teachers",
+        "la": "Jami o'qituvchilar"
+    },
+    {
+        "key": "total_reports",
+        "uz": "Жами ҳисоботлар",
+        "ru": "Всего отчёты",
+        "en": "Total Reports",
+        "la": "Jami hisobotlar"
+    },
+    {
+        "key": "photo",
+        "uz": "Фото",
+        "ru": "Фото",
+        "en": "Photo",
+        "la": "Foto"
+    },
+    {
+        "key": "fullname",
+        "uz": "Ф.И.Ш",
+        "ru": "Ф.И.О",
+        "en": "Fullname",
+        "la": "F.I.SH"
+    },
+    {
+        "key": "count_of_groups",
+        "uz": "Гуруҳлар сони",
+        "ru": "Кол-во групп",
+        "en": "Count of groups",
+        "la": "Guruhlar soni"
+    },
+    {
+        "key": "phone_num",
+        "uz": "Телефон рақами",
+        "ru": "Номер телефона",
+        "en": "Phone number",
+        "la": "Telefon raqami"
+    },
+    {
+        "key": "actions",
+        "uz": "Ҳаракатлар",
+        "ru": "Действия",
+        "en": "Actions",
+        "la": "Harakatlar"
+    },
+    {
+        "key": "role",
+        "uz": "Рол",
+        "ru": "Роль",
+        "en": "Role",
+        "la": "Rol"
+    },
+    {
+        "key": "recent_reports",
+        "uz": "Охирги юборилган ҳисоботлар",
+        "ru": "Последние отправленные отчеты",
+        "en": "Last submitted reports",
+        "la": "Oxirgi yuborilgan hisobotlar"
+    },
+    {
+        "key": "last_logged_in_users",
+        "uz": "Яқинда тизимга кирган фойдаланувчилар",
+        "ru": "Последние вошедшие в систему пользователи",
+        "en": "Last logged in users",
+        "la": "Yaqinda tizimga kirgan foydalanuvchilar"
+    },
+    {
+        "key": "sender",
+        "uz": "Юборувчи",
+        "ru": "Отправитель",
+        "en": "Sender",
+        "la": "Yuboruvchi"
+    },
+    {
+        "key": "submitted_at",
+        "uz": "Юборилган вақт",
+        "ru": "Время отправки",
+        "en": "Submitted at",
+        "la": "Yuborilgan vaqt"
+    },
+    {
+        "key": "status",
+        "uz": "Ҳолати",
+        "ru": "Статус",
+        "en": "Status",
+        "la": "Holati"
+    },
+    {
+        "key": "approved",
+        "uz": "Тасдиқланган",
+        "ru": "Одобренный",
+        "en": "Approved",
+        "la": "Tasdiqlangan"
+    },
+    {
+        "key": "rejected",
+        "uz": "Рад этилган",
+        "ru": "Отклоненный",
+        "en": "Rejected",
+        "la": "Rad etilgan"
+    },
+    {
+        "key": "submitted",
+        "uz": "Юборилган",
+        "ru": "Отправленный",
+        "en": "Submitted",
+        "la": "Yuborilgan"
+    },
+    {
+        "key": "add_new_teacher",
+        "uz": "Янги ўқитувчи қўшиш",
+        "ru": "Добавить нового учителя",
+        "en": "Add new teacher",
+        "la": "Yangi o'qituvchi qo'shish"
+    },
+    {
+        "key": "add_new_student",
+        "uz": "Янги ўқувчи қўшиш",
+        "ru": "Добавить нового студента",
+        "en": "Add new student",
+        "la": "Yangi o'quvchi qo'shish"
+    },
+    {
+        "key": "download_to_excel",
+        "uz": "Excel га юклаш",
+        "ru": "Загрузить в Excel",
+        "en": "Download to Excel",
+        "la": "Excelga yuklash"
+    },
+    {
+        "key": "search",
+        "uz": "Қидириш",
+        "ru": "Поиск",
+        "en": "Search",
+        "la": "Qidirish"
+    },
+    {
+        "key": "create_new_group",
+        "uz": "Янги гуруҳ яратиш",
+        "ru": "Создать новую группу",
+        "en": "Create new group",
+        "la": "Yangi guruh yaratish"
+    },
+    {
+        "key": "group_name",
+        "uz": "Гуруҳ номи",
+        "ru": "Имя группы",
+        "en": "Group name",
+        "la": "Guruh nomi"
+    },
+    {
+        "key": "attached_teacher",
+        "uz": "Бириктирилган ўқитувчи",
+        "ru": "Прикрепленный учитель",
+        "en": "Attached teacher",
+        "la": "Biriktirilgan o'qituvchi"
+    },
+    {
+        "key": "count_of_students",
+        "uz": "Ўқувчилар сони",
+        "ru": "Кол-во студентов",
+        "en": "Count of students",
+        "la": "O'quvchilar soni"
+    },
+    {
+        "key": "start_date",
+        "uz": "Бошланган сана",
+        "ru": "Дата начала",
+        "en": "Start date",
+        "la": "Boshlangan sana"
+    },
+    {
+        "key": "finish_date",
+        "uz": "Тугаш санаси",
+        "ru": "Дата окончания",
+        "en": "Finish date",
+        "la": "Tugash sanasi"
+    },
+    {
+        "key": "view",
+        "uz": "Кўриш",
+        "ru": "Просмотреть",
+        "en": "View",
+        "la": "Ko'rish"
+    }
+]
