@@ -2,7 +2,7 @@
     <div class="form-input" :style="{'position': inputType === 'password' ? 'relative': 'static'}">
         <input 
             :value="modelValue" 
-            @input="$emit('update:modelValue', ($event.target as HTMLInputElement).value)" 
+            @input="$emit('update:modelValue', ($event.target as HTMLInputElement).value);"
             :type="isHiddenPassword ? inputType: 'text'" 
             :placeholder="placeholder"
             :id="id"

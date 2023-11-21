@@ -18,7 +18,7 @@ export default {
 </script>
 <style scoped>
 .form-label {
-    padding: 0px 2px;
+    padding: 0;
     margin-top: 5px;
 }
 
@@ -26,6 +26,5 @@ export default {
     font-size: 16px;
     font-weight: 400;
     color: #333;
-    letter-spacing: 0.6px;
 }
 </style>

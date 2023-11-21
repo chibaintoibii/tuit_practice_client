@@ -250,5 +250,26 @@
         "ru": "Просмотреть",
         "en": "View",
         "la": "Ko'rish"
+    },
+    {
+        "key": "save",
+        "uz": "Сақлаш",
+        "ru": "Сохранить",
+        "en": "Save",
+        "la": "Saqlash"
+    },
+    {
+        "key": "cancel",
+        "uz": "Бекор қилиш",
+        "ru": "Отменить",
+        "en": "Cancel",
+        "la": "Bekor qilish"
+    },
+    {
+        "key": "upload_photo",
+        "uz": "Расм юклаш",
+        "ru": "Загрузить фото",
+        "en": "Upload photo",
+        "la": "Rasm yuklash"
     }
 ]

@@ -1,18 +1,13 @@
 <template>
-    <div>
+  <div>
     <button @click="openModal">Open Modal</button>
-    <Modal :showModal="isModalOpen" @close="closeModal">
-      <p>This is the content of the modal dialog.</p>
-    </Modal>
+    <p>This is the content of the modal dialog.</p>
   </div>
 </template>
 <script lang="ts">
-import Modal from '../Modal.vue';
 export default {
-    name: 'Report',
-    components: {
-    Modal,
-  },
+  name: 'Report',
+  components: {},
   data() {
     return {
       isModalOpen: false,

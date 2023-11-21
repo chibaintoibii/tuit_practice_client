@@ -8,7 +8,8 @@ export default {
     if(mode == 'dark') {
       document.body.classList.add('dark');
     }
-  }
+  },
+
 }
 </script>
 <style>
@@ -126,8 +127,18 @@ a {
 }
 
 .current {
-  background: var(--color-primary-dark);
-  color: red;
+  background: #1a3247;
+  color: #fff;
+  font-size: 18px;
+}
+
+button.current {
+  background: #1a3247 !important;
+
+}
+
+body.dark button.current {
+  background: #2b2f32 !important;
 }
 
 .status {
@@ -171,6 +182,82 @@ a {
   --bs-btn-active-border-color: #1a3247;
   transform: scale(1.01);
 }
+
+.dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+
+}
+
+.dialog-wrapper {
+  background-color: #fefefe;
+  //padding: 20px;
+  border-radius: 10px;
+  min-width: 700px;
+}
+
+.dialog-header {
+  width: 100%;
+  height: 50px;
+  background: #21415c;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 10px 10px 0 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dialog-header .close {
+  cursor: pointer;
+  color: #fff;
+}
+
+.dialog-header .close:hover {
+  color: #fff;
+}
+
+.dialog-content {
+  min-width: 700px;
+  max-width: 800px;
+  //min-height: 50px;
+  background: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.dialog-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px 10px 10px 0;
+  background: #eee;
+  border-radius: 0 0 10px 10px;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
 
 
 </style>
