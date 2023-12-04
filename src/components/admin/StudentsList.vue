@@ -28,7 +28,7 @@
             <th scope="col">№</th>
             <th scope="col">{{ this.$localeToText('photo') }}</th>
             <th scope="col">
-              <span style="cursor: pointer;" @click="sortBy(0)">{{ this.$localeToText('fullname') }}
+              <span style="cursor: pointer;" @click="sortBy(0)">{{ this.$localeToText('fullName') }}
                   <i class="fa-solid ms-1" :class="[sortIcons[sortingFields[0] + 1]]"></i>
               </span>
             </th>
@@ -53,7 +53,7 @@
           </tr>
           </thead>
           <tbody>
-          <tr v-for="o in 10">
+          <tr v-for="o in 15">
             <td>{{ o }}</td>
             <td class="d-flex justify-content-center align-items-center">
               <div class="img">
@@ -92,11 +92,11 @@ import Pagination from "@/components/Pagination.vue";
 
 export default {
   name: 'Student',
-  components: {Pagination},
+  components: { Pagination },
   data() {
     return {
       currentPage: 1,
-      totalPageCount: 10,
+      totalPageCount: 20,
       data: [], // Your paginated data,
       sortIcons: ['fa-sort-down', 'fa-sort', 'fa-sort-up'],
       sortingFields: [0, 0, 0, 0],
@@ -128,7 +128,7 @@ export default {
 </script>
 <style scoped>
 table td .img {
-  width: 30px;
+  width: 2.1rem;
 }
 
 table td .img img {

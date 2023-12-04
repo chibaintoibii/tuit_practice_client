@@ -49,8 +49,8 @@
                 <div class="col-8">
                   <div class="row">
                     <div class="col-7 mb-1">
-                      <form-label :text="this.$localeToText('fullname')" forAttribute="fullname"/>
-                      <form-input id="fullname" v-model="teacherForm.fullname" inputType="text"/>
+                      <form-label :text="this.$localeToText('fullName')" forAttribute="fullName"/>
+                      <form-input id="fullName" v-model="teacherForm.fullname" inputType="text"/>
                     </div>
                     <div class="col-5 mb-1">
                       <form-label text="username" forAttribute="username"/>
@@ -78,7 +78,7 @@
               <button class="btn btn-outline-danger me-2" @click="showDialog = false; imageUrl = null">
                 {{ this.$localeToText('cancel') }}
               </button>
-              <button class="btn btn-custom-primary" @click="teachers.push(teacherForm)">{{
+              <button class="btn btn-custom-primary" @click="teachers.push(teacherForm); this.showDialog = false">{{
                   this.$localeToText('save')
                 }}
               </button>
@@ -99,7 +99,7 @@
               <th scope="col">№</th>
               <th scope="col">{{ this.$localeToText('photo') }}</th>
               <th scope="col">
-                <span style="cursor: pointer;" @click="sortBy(0)">{{ this.$localeToText('fullname') }}
+                <span style="cursor: pointer;" @click="sortBy(0)">{{ this.$localeToText('fullName') }}
                   <i class="fa-solid ms-1" :class="[sortIcons[sortingFields[0] + 1]]"></i>
                 </span>
               </th>
@@ -183,7 +183,7 @@ export default {
       showDialog: false,
       imageUrl: '',
       teacherForm: {
-        fullname: '',
+        fullName: '',
         username: '',
         password: '',
         confirmPassword: '',
@@ -200,12 +200,12 @@ export default {
         console.log(err);
       }
     },
-    handlePageChange(page) {
+    handlePageChange(page: number) {
       // Update your content based on the new page
       this.currentPage = page;
       // Fetch data or update content here based on the new page
     },
-    handleImageUpload(event) {
+    handleImageUpload(event: any) {
       const file = event.target.files[0];
       if (file) {
         const reader = new FileReader();

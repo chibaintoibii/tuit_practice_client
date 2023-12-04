@@ -28,7 +28,7 @@ export default {
     display: flex;
     align-items: center;
     height: 60px;
-    margin-bottom: 1px;
+    //margin-bottom: 1px;
     background-color: var(--color-primary);
     color: #fff;
     cursor: pointer;

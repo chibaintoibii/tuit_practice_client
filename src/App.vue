@@ -75,6 +75,7 @@ ul {
   width: 100%;
 }
 
+
 .custom-table tr {
   border-bottom: 1px solid var(--color-dark);
 }
@@ -83,7 +84,7 @@ ul {
   cursor: pointer;
 } */
 
-.custom-table tbody tr:nth-child(2n-1) {
+.custom-table tbody tr:nth-child(2n-1){
   background: #eee;
 }
 
@@ -103,13 +104,16 @@ body.dark .custom-table tbody tr:hover {
   border-bottom: none;
 }
 
+
 .custom-table tr th,
 .custom-table tr td {
   padding: 4px 10px;
   color: var(--color-dark);
   text-align: center;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
+
+
 
 .custom-table tr th:first-child,
 .custom-table tr td:first-child {
@@ -153,15 +157,11 @@ body.dark button.current {
   text-align: center;
 }
 
-.status-approved {
+.status-checked {
   background: #326e18;
 }
 
-.status-rejected {
-  background: #e53935;
-}
-
-.status-submitted {
+.status-unchecked {
   background: #ebab34;
 }
 

@@ -84,10 +84,10 @@
         "la": "Foto"
     },
     {
-        "key": "fullname",
+        "key": "fullName",
         "uz": "Ф.И.Ш",
         "ru": "Ф.И.О",
-        "en": "Fullname",
+        "en": "Full name",
         "la": "F.I.SH"
     },
     {
@@ -154,25 +154,18 @@
         "la": "Holati"
     },
     {
-        "key": "approved",
-        "uz": "Тасдиқланган",
-        "ru": "Одобренный",
-        "en": "Approved",
-        "la": "Tasdiqlangan"
+        "key": "checked",
+        "uz": "Текширилган",
+        "ru": "Проверено",
+        "en": "Checked",
+        "la": "Tekshirilgan"
     },
     {
-        "key": "rejected",
-        "uz": "Рад этилган",
-        "ru": "Отклоненный",
-        "en": "Rejected",
-        "la": "Rad etilgan"
-    },
-    {
-        "key": "submitted",
-        "uz": "Юборилган",
-        "ru": "Отправленный",
-        "en": "Submitted",
-        "la": "Yuborilgan"
+        "key": "unchecked",
+        "uz": "Текширилмаган",
+        "ru": "Не проверено",
+        "en": "Unchecked",
+        "la": "Tekshirilmagan"
     },
     {
         "key": "add_new_teacher",

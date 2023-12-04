@@ -10,6 +10,7 @@ import AdminReports from '../components/admin/Reports.vue'
 import AdminSettings from '../components/Settings.vue'
 import Test from '../components/Test.vue'
 import NotFound from "@/views/NotFound.vue";
+import GroupDetails from "@/components/admin/GroupDetails.vue";
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/login',
@@ -55,8 +56,20 @@ const routes: Array<RouteRecordRaw> = [
         path: 'students'
       },
       {
-        component: AdminGroups,
-        path: 'groups'
+        path: 'groups',
+        children: [
+          {
+            path: '',
+            component: AdminGroups,
+
+          },
+          {
+            path: ':id',
+            component: GroupDetails,
+            name: 'GroupDetails'
+          },
+
+        ]
       },
       {
         component: AdminReports,

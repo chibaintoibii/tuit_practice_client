@@ -1,5 +1,5 @@
 <template>
-    <div class="logo">
+    <div class="logo" @click="this.$router.push('/')">
         <div class="image"><img src="https://static.tuit.uz/crop/2/5/850__80_25403472.jpg" alt=""></div>
         <div class="title"><span>TUIT Practice</span></div>
     </div>
